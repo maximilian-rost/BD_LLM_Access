@@ -1,20 +1,22 @@
-# BD_LLM_Access
+# How to access LLMs? 
 
-** Completion **
+*Space for a cool header*
 
-We provide the following models:
+## Completion Models
+
+For BCX'24 Bosch Digital_ provides access to these completion models: 
 
 | **OpenAI** | **Llama 2** | **Mistral.ai** |
 |------------|-------------|----------------|
 | gpt-3.5    | Llama-7b    | Mistral-7b     | 
 | gpt-4      | Llama-70b   |                |  
 
-* All models are provided in as chat/instruct finetuned variant.
 
-Access these models via python:
+ *All models are provided as chat/instruct finetuned variant. For OpenAIs Quota Limites apply.* 
+
+To access these models via *python*:
 
 ```
-{
 import requests
 import json
 
@@ -38,14 +40,12 @@ headers = {
 response = requests.request("POST", url, headers=headers, data=payload)
 
 print(response.text)
-}
 ```
 
-** Embedding **
-Via OpenAI's text-embedding-3-small
+## Embedding Models
+... are provided via OpenAI's *text-embedding-3-small*. How to embedd you input via *python*:
 
 ```
-{
 
 import requests
 import json
@@ -65,8 +65,8 @@ response = requests.request("POST", url, headers=headers, data=payload)
 
 print(response.text)
 
-
-}
 ```
 
-Function Calling, Whisper, Vision, custom GPU power for fine tuning or more credits needed —> hit us up :)  
+## 🚨 You need more? 
+
+>  Function Calling, Whisper, Vision, custom GPU power for fine tuning or more credits needed —> hit us up :)  
