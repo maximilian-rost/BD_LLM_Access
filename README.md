@@ -2,6 +2,7 @@
 ![](shaping_tomorrow.png)
 
 [!NOTE] 
+
 *This service is proudly brought to you by **Bosch Digital_ Cross-Division Consulting** and **AI Model Serving Platform**.*
 
 ## How access completion models?
@@ -137,4 +138,5 @@ print(response.data[0].embedding)
 ## 🚨 Not satisfied, yet? 
 
 [!TIP]
+
 Function Calling, Whisper, GPT-Vision, custom GPU power for fine tuning or more credits needed? Hit us up via [Slack](https://bcx2024.slack.com/archives/D06JAGN58LX) or visited the Bosch Digital_ Booth at the Marketplace.
