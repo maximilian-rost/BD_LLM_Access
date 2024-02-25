@@ -1,7 +1,8 @@
 
 ![](shaping_tomorrow.png)
 
-*This service is proudly brought to you by **Bosch Digital Cross-Division Consulting** and **AI Model Serving Platform**.*
+[!NOTE] 
+*This service is proudly brought to you by **Bosch Digital_ Cross-Division Consulting** and **AI Model Serving Platform**.*
 
 ## How access completion models?
 
@@ -42,10 +43,11 @@ response = requests.request("POST", url, headers=headers, data=payload)
 
 print(response.text)
 ```
-OR 
+**OR** 
 
 ```
 import openai
+
 client = openai.OpenAI(
     api_key="YOUR_API_KEY",
     base_url="https://llms.azurewebsites.net"
@@ -66,6 +68,7 @@ For OpenAI models, streaming output is also available:
 
 ```
 import openai
+
 client = openai.OpenAI(
     api_key="YOUR_API_KEY",
     base_url="https://llms.azurewebsites.net"
@@ -88,7 +91,7 @@ for chunk in response:
 
 
 ## How access embedding models?
-... are provided via OpenAI's *text-embedding-3-small*. How to embed your input via *python*?
+Via OpenAI's *text-embedding-3-small* you can embed your input text:
 
 ```
 
@@ -111,7 +114,7 @@ response = requests.request("POST", url, headers=headers, data=payload)
 print(response.text)
 
 ```
-OR
+**OR**
 
 ```
 from openai import OpenAI
@@ -133,6 +136,5 @@ print(response.data[0].embedding)
 
 ## 🚨 Not satisfied, yet? 
 
->  Function Calling, Whisper, GPT-Vision, custom GPU power for fine tuning or more credits needed —> hit us up via [Slack](https://bcx2024.slack.com/archives/D06JAGN58LX) or visited the Bosch Digital_ Booth at the Marketplace.
-
------
+[!TIP]
+Function Calling, Whisper, GPT-Vision, custom GPU power for fine tuning or more credits needed? Hit us up via [Slack](https://bcx2024.slack.com/archives/D06JAGN58LX) or visited the Bosch Digital_ Booth at the Marketplace.
