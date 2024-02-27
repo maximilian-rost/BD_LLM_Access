@@ -135,4 +135,4 @@ print(response.data[0].embedding)
 
 ## 🚨 Not satisfied, yet? 
 
-> Function Calling, Whisper, GPT-Vision, custom GPU power for fine tuning or more credits needed? Hit us up via [Slack](https://bcx2024.slack.com/archives/D06JAGN58LX) or visited the Bosch Digital_ Booth at the Marketplace.
+> Function Calling, Whisper, GPT-Vision, custom GPU power for fine tuning or more credits needed? Hit us up via [Slack](https://bcx2024.slack.com/team/U06KDSV2NE4) or visited the Bosch Digital_ Booth at the Marketplace.
